@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-addr=input('Enter the IP/Mask:')
+#addr=input('Enter the IP/Mask:')
+from sys import argv
+addr=argv[1]
 
 address,mask=addr.split('/')
 address=address.split('.')
